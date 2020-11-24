@@ -55,4 +55,5 @@ Rails.application.routes.draw do
   #   end
   
   resources :students, only: [:index, :new, :create]
+  get 'student', as:
 end
