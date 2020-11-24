@@ -1,6 +1,8 @@
 class CreateCoupons < ActiveMigration
   def change
     create_table :coupons do |t|
-      t.
+      t.string :coupon_code
+      t.string :store 
+    end 
   end 
 end 
